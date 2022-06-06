@@ -22,7 +22,7 @@ class Pokemon extends React.Component {
           </p>
           {showDetailsLink && <Link to={ `pokemons/${id}` }>More details</Link>}
         </div>
-        <img src={ `${image}` } alt={ `${name} sprite` } />
+        <img width="200" src={ `${image}` } alt={ `${name} sprite` } />
         {isFavorite && (
           <img
             className="favorite-icon"
