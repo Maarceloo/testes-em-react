@@ -48,6 +48,3 @@ describe('testando o componente <App.js />', () => {
     expect(notFound).toBeInTheDocument();
   });
 });
-// acessar os testes;
-// interagir com os elementos (se necessario)
-// testar o teste;
